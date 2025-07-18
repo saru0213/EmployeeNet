@@ -1,12 +1,16 @@
-import React from 'react'
-import EmployeeManagement from '../Components/EmployeeManagement'
+import EmployeeManager from "../components/EmployeeManager";
 
-function page() {
+
+
+export default function Home() {
   return (
-   <>
-    <EmployeeManagement/>
-   </>
-  )
+    <div className="min-h-screen bg-gray-50">
+      <div className="container mx-auto py-8">
+        <h1 className="text-3xl font-bold text-center mb-8 text-sky-800 ">
+          Employee Management System
+        </h1>
+        <EmployeeManager />
+      </div>
+    </div>
+  );
 }
-
-export default page
