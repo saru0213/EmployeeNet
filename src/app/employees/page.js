@@ -1,4 +1,5 @@
-import EmployeeManager from "../components/EmployeeManager";
+import EmployeeManager from "../Components/EmployeeManager";
+
 
 
 
